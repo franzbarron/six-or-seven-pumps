@@ -7,4 +7,4 @@ const dayOfYear =
   60 /
   1000;
 const h1 = document.querySelector("#days");
-h1.textContent = ((dayOfYear % 3) % 2) + 6;
+h1.textContent = (dayOfYear % 3) % 2 ? 6 : 7;
